@@ -4,8 +4,9 @@ function addToDo(e) {
   if (toDoDescription.value) {
     const toDo = document.createElement("li");
     toDo.innerText = toDoDescription.value;
+    let toDos = document.getElementById("tasks")
   
-    document.getElementById("tasks").appendChild(toDo)
+    toDos.appendChild(toDo)
   }
   e.target.reset(); 
 }
