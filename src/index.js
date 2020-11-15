@@ -8,9 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const toDo = document.createTextNode(document.getElementById("new-task-description").value)
   // adding and handling 'done' button
     const finished = document.createElement("input")
-    finished.value = "Done" 
+    finished.value = "Complete" 
     finished.type = "submit"
-    finished.id = "done"
     finished.addEventListener("click", function(e) {
       list.remove()
     })     
