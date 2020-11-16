@@ -15,5 +15,6 @@ document.addEventListener("DOMContentLoaded", () => {
   form.addEventListener('submit', (event) => {
     event.preventDefault();
     addTaskToList();
+    event.target.reset();
   });
 });
