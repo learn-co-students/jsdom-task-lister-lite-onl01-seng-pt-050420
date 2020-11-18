@@ -35,3 +35,15 @@ button {
   border-radius: 5px;
   box-shadow: 2px 5px 5px rgb(32, 11, 216);
 }
+
+
+.high {
+  color: red;
+  font-weight: bold; 
+}
+.medium {
+  color: orange;
+}
+.low {
+  color: green;
+}
